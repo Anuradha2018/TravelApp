@@ -1,5 +1,5 @@
 # TravelApp
-My attempt to crack Momondo's Developer Test
+My attempt to crack Momondo's Developer Test(using Angular 6)
 
 
 
