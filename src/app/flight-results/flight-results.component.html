@@ -127,7 +127,7 @@
                       </div>
                       <div class="c-flights_ticket-summary-segment">
                         <div class="c-flights_ticket-summary-segment-carriers">
-                          <!--{{ res.AirlineName }}-->
+                          {{ res.AirlineName }}
                         </div>
                         <div
                           class="c-flights_ticket-summary-segment-location c-flights_ticket-summary-segment-location--origin"
@@ -136,21 +136,21 @@
                             class="c-flights_ticket-summary-segment-iata_time"
                           >
                             <div class="c-flights_ticket-summary-segment-iata">
-                              <!--{{ res.Destination.Iata }}-->
+                              {{ res.Destination.Iata }}
                             </div>
                             <div class="c-flights_ticket-summary-segment-time">
-                              <!--{{ res.Departure | date: "h:mm a" }}-->
+                              {{ res.Departure | date: "h:mm a" }}
                             </div>
                           </div>
                           <div class="c-flights_ticket-summary-segment-place">
-                            <!--{{ res.Destination.Name }}-->
+                            {{ res.Destination.Name }}
                           </div>
                         </div>
                         <div class="c-flights_ticket-summary-segment-route">
                           <div class="c-flights_ticket_route">
                             <div class="c-flights_ticket_route-container">
                               <div class="c-flights_ticket_route-duration">
-                                <!--{{ res.Duration | hourmin }}-->
+                                {{ res.Duration | hourmin }}
                               </div>
                               <div class="c-flights_ticket_route-stops">
                                 <svg
@@ -180,14 +180,14 @@
                             class="c-flights_ticket-summary-segment-iata_time"
                           >
                             <div class="c-flights_ticket-summary-segment-iata">
-                              <!--{{ res.Origin.Iata }}-->
+                              {{ res.Origin.Iata }}
                             </div>
                             <div class="c-flights_ticket-summary-segment-time">
-                              <!--{{ res.Arrival | date: "h:mm a" }}-->
+                              {{ res.Arrival | date: "h:mm a" }}
                             </div>
                           </div>
                           <div class="c-flights_ticket-summary-segment-place">
-                            <!--{{ res.Origin.Name }}-->
+                            {{ res.Origin.Name }}
                           </div>
                         </div>
                       </div>
