@@ -22,7 +22,7 @@
     "@angular/router": "^6.1.0",
     "acorn": "^8.0.4",
     "core-js": "^2.5.4",
-    "elliptic": "^6.5.3",
+    "elliptic": "^6.5.4",
     "fstream": "^1.0.12",
     "http-proxy": "^1.18.1",
     "https-proxy-agent": "^5.0.0",
